@@ -1,17 +1,18 @@
 const languages = [
+    {   
+        key:'e',
+        img: "C.jpg",
+        name: "C",
+        sample: '#include <stdio.h>\n\nint main( )\n{\n\tprintf ( "Hello World" ) ;\n\treturn 0;\n}',
+        code : 0 ,
+        numbers : 6
+    },
     {   key:'a',
         img: "c-.png",
         name: "C++",
         sample : '#include <iostream>\n\nusing namespace std;\n\nint main( )\n{\n\tcout << "Hello World" ;\n\treturn 0;\n}',
-        code : 0,
+        code : 1,
         numbers : 7
-    },
-    {   key:'e',
-        img: "C.jpg",
-        name: "C",
-        sample: '#include <stdio.h>\n\nint main( )\n{\n\tprintf ( "Hello World" ) ;\n\treturn 0;\n}',
-        code : 1 ,
-        numbers : 6
     },
     {   key:'f',
         img: "c-sharp.png",
