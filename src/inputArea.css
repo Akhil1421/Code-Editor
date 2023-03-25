@@ -1,0 +1,16 @@
+textarea:focus{
+    outline: none;
+}
+.inputArea>textarea{
+    width: 57rem;
+   border:.2rem solid aqua;
+   font-family: "Calibri";
+   resize: none; 
+   background: #1C2130;
+   color: #16f158;
+   padding-left: 0.3rem;
+}
+
+.inputArea>h3{
+    color : green;
+}

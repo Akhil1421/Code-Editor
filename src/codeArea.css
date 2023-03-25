@@ -1,0 +1,18 @@
+.codeArea{
+    display:flex;
+    flex-direction: column;
+}
+
+.codeArea>textarea{
+    width: 57rem;
+    border:.2rem solid aqua;
+    font-family: "Calibri";
+    padding: 0.25rem;
+}
+
+.inside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bolder; 
+}

@@ -1,0 +1,208 @@
+.inputs{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.App{
+    font-family: "Calibri";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiners{
+    display: flex;
+    flex-direction: column;
+}
+
+.bar>button{
+    background-color: #1C2130;
+    width: 3rem;
+    border-color: white;
+    color : cyan;
+    margin-left: 1.75rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+.bar{
+    margin-right: 1.5rem;
+}
+button{
+    margin-left: 2rem;
+}
+.bar>button:hover{
+    background-color: #02195e;
+    color: cyan;
+}
+
+.languages{
+    margin-right: 2rem;
+}
+@media screen and (max-width: 1024px){
+    button{
+        width: 3rem;
+        margin-left: 1.75rem;
+    }
+    .languages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .codeArea{
+        display:flex;
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+    
+    .codeArea>textarea{
+        width: 45rem;
+        border:.2rem solid aqua;
+        font-family: "Calibri";
+        padding: 0.25rem;
+    }
+    .inputArea>textarea{
+        width: 45rem;
+       border:.2rem solid aqua;
+       font-family: "Calibri";
+       resize: none;
+       margin-left: 1rem; 
+       background: #1C2130;
+       color: #16f158;
+       padding-left: 0.3rem;
+    }
+    .inputArea>h3{
+        margin-left: 1.2rem;
+    }
+    .languages{
+        margin-right: 2rem;
+    }
+    h3{
+        color : green;
+        margin-top: 1rem;
+        margin-left: 0.2rem;
+    }
+    .receivedOutput>textarea{
+        width: 45rem; 
+    }
+    .bar>button{
+        border-radius: 0.25rem;
+        margin-left: 0rem;
+    }   
+}
+
+@media screen and (max-width: 855px) {
+    .languages{
+        display: grid;   
+        grid-template: 2rem/1fr 1fr 1fr 1fr 1fr;
+        place-content: center;
+        padding-left: 2.4rem;
+    }
+    .optionBtns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        margin-left: 0rem;
+    }
+    .image-button img {
+        max-height: 2rem;
+        max-width: 4rem;
+      }
+    .image-button{
+        max-height: fit-content;
+        max-width: fit-content;
+    }
+    .codeArea{
+        display:flex;
+        flex-direction: column;
+        margin-left: 1.2rem;
+    }
+    .codeArea>textarea{
+        width: 35rem;
+    }
+    .inputArea>textarea{
+        width: 35rem;
+        color: #16f158;
+        margin-left: 1.2rem;
+    } 
+    h3{
+        margin-left: 1.2rem;
+    }
+    .receivedOutput>textarea{
+        margin-left: 1.2rem;
+        width: 35rem; 
+    }
+    .bar>button{
+        height: 1rem;
+        font-size: 0.6rem;
+        margin-left: 0;
+    }
+    .languages{
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .codeArea>textarea{
+        width: 25rem;
+        margin-left: 0;
+    }
+    .inputArea>textarea{
+        width: 25rem;
+        margin-left: 1.2rem;
+        color: #16f158;
+    }
+    .receivedOutput>textarea{
+        margin-left: 1.2rem;
+        width: 25rem; 
+    }
+    .languages{
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .codeArea>textarea{
+        width: 15rem;
+        margin-left: 0;
+    }
+    .inputArea{
+        display: grid;
+        place-content: center;
+    }
+    .inputArea>textarea{
+        width: 15rem;
+        margin-left: 1.2rem;
+        color: #16f158;
+    }
+    .receivedOutput>textarea{
+        margin-left: 1.2rem;
+        width: 15rem; 
+    }      
+    .inside{
+        display : flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.75rem;
+    }
+    .bar>button{
+        margin-left: 1rem;
+        width: 2.1rem;
+        /* font-size: 0.8rem; */
+        padding: none;
+        font-size: 0.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .languages{
+        margin-right: 1rem;
+        column-gap: 1rem;
+        place-content: center;
+    }
+
+}

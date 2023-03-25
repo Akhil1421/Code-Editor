@@ -1,0 +1,19 @@
+h3{
+    color : green;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+.receivedOutput{
+    color: antiquewhite;
+}
+
+.receivedOutput>textarea{
+    border:.2rem solid aqua;
+    resize: none; 
+    width: 57rem; 
+    margin-bottom: 1rem;
+    background: #1C2130;
+    color : cyan;
+    padding: 0.25rem;
+}
+ 
